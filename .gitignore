@@ -1,0 +1,19 @@
+# IDE i pliki tymczasowe
+.settings/
+Debug/
+Release/
+*.launch
+
+# Pliki kompilacji
+*.o
+*.d
+*.lst
+*.map
+*.elf
+*.hex
+*.bin
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+JLinkLog.txt

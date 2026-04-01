@@ -1,0 +1,59 @@
+/*
+ * RollerCAN_Def.h
+ *
+ *  Created on: Mar 19, 2026
+ *      Author: nicni
+ */
+
+#ifndef INC_ROLLERCAN_DEF_H_
+#define INC_ROLLERCAN_DEF_H_
+
+//////////////////////////  ADRESS   ////////////////////////////////////////
+
+#define ROLLERCAN_ON (0x03)
+#define ROLLERCAN_OFF (0x04)
+//#define ROLLERCAN_CMD_ID (0x07)
+#define ROLLERCAN_UNPROTECT (0x09)
+#define ROLLERCAN_FLASH (0x0A)
+//#define ROLLERCAN_BAUDRATE (0x0B)
+#define ROLLERCAN_PROTECTION_ON (0x0C)
+#define ROLLERCAN_PROTECTION_OFF (0x0D)
+
+#define ROLLERCAN_STATUS_CMD (0x02)
+
+#define ROLLERCAN_READ_CMD (0x11)
+#define ROLLERCAN_WRITE_CMD (0x12)
+
+//////////////////////////  INDEX   ////////////////////////////////////////
+
+#define ROLLERCAN_SAVE_FLASH (0x7002)
+#define ROLLERCAN_PROTECTION (0x7003)
+
+#define ROLLERCAN_SWITCH_ON_OFF (0x7004)
+#define ROLLERCAN_MODE (0x7005)
+#define ROLLERCAN_ENCODER (0x7033)
+#define ROLLERCAN_RGB_MODE (0x7050)
+#define ROLLERCAN_SPEED (0x700A)
+#define ROLLERCAN_SPEED_CURRENT (0x7018)
+#define ROLLERCAN_SPEED_KP (0x7020)
+#define ROLLERCAN_SPEED_KI (0x7021)
+#define ROLLERCAN_SPEED_KD (0x7022)
+
+#define ROLLERCAN_POSITION (0x7016)
+#define ROLLERCAN_POSITION_CURRENT (0x7017)
+#define ROLLERCAN_POSITION_KP (0x7023)
+#define ROLLERCAN_POSITION_KI (0x7024)
+#define ROLLERCAN_POSITION_KD (0x7025)
+#define ROLLERCAN_CURRENT (0x7006)
+
+#define ROLLERCAN_ACTUAL_SPEED (0x7030)
+#define ROLLERCAN_ACTUAL_POSITION (0x7031)
+#define ROLLERCAN_ACTUAL_CURRENT (0x7032)
+#define ROLLERCAN_INPUT_VOLTAGE (0x7034)
+#define ROLLERCAN_TEMP (0x7035)
+#define ROLLERCAN_RGB_MODE (0x7050)
+#define ROLLERCAN_RGB_COLOR (0x7051)
+#define ROLLERCAN_RGB_BRIGHTNESS (0x7052)
+
+
+#endif /* INC_ROLLERCAN_DEF_H_ */

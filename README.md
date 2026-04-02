@@ -1,3 +1,7 @@
+Biblioteka do urządzenia RollerCAN unit komunikującego sie poprzez magistrale CAN
+
+https://docs.m5stack.com/en/unit/Unit-RollerCAN
+
 Oto moja pierwsza w zyciu pisana samodzielnie 
 biblioteka na nowo poznanym interfejscie 
 komunikacyjnym jakim jest magistrala CAN.

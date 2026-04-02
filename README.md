@@ -1,4 +1,4 @@
-Biblioteka do urządzenia RollerCAN unit komunikującego sie poprzez magistrale CAN
+Biblioteka w języku C do urządzenia RollerCAN unit komunikującego sie poprzez magistrale CAN, biblioteka uruchomiona na STM32
 
 https://docs.m5stack.com/en/unit/Unit-RollerCAN
 
